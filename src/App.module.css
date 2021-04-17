@@ -8,3 +8,20 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+.image {
+    width: 370px;
+    height: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 8px 8px rgb(250, 250, 250);
+}
+
+@media (max-width: 770px) {
+    .container {
+        margin: 0 10%;
+    }
+
+    .image {
+        width: 100%
+    }
+}
